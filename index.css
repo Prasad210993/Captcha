@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* min-width: 70%; */
+    background-color: rgb(200, 200, 200);
+}
+.outer{
+    height: 25%;
+    width: 25%;
+    border: 3px solid white;
+    background-color: rgb(60, 60, 255);
+    border-radius: 7px;
+}
+
+.insider{
+    height: 75%;
+    width: 75%;
+    /* border: 2px solid white; */
+    border-radius: 4px;
+    margin: 16px auto;
+}
+
+.insider h2{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.insider .opt{
+    position: relative;
+    /* border: 1px solid red; */
+    height: 25px;
+    width: 90%;
+    margin:15px auto;
+}
+
+.opt .dis{
+    background-color: white;
+    height: 100%;
+    width: 80%;
+}
+
+.dis img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.opt .showingText{
+    position: absolute;
+    top: 0;
+    left: 4%;
+    text-align: center;
+    text-decoration: line-through;
+    font-style: italic;
+    letter-spacing: 12px;
+    opacity: 0.4;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.opt .ref button{
+    border: 1px solid red;
+    width: 100%;
+    height: 100%;
+}
+
+.opt .ref{  
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 16%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.ref img{
+    width: 90%;
+    height: 90%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.insider .input{
+    position: relative;
+    /* border: 1px solid red; */
+    width: 90%;
+    margin:5px auto 5px;
+}
+
+.input input{
+    height: 25px;
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+}
+
+.input button{
+    position: absolute;
+    right: 2%;
+    top: 09%;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color:rgb(60, 60, 255);
+    cursor: pointer;
+    border: 1px solid #fff;
+    width: 25%;
+    height: 90%;
+    border-radius: 4px;
+}
